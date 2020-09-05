@@ -1,4 +1,4 @@
-<style>
+
 .bg-titulo-rajaxplus {
   position: relative;
   z-index: 104;
@@ -208,9 +208,7 @@
   padding: 6px 18px;
 }  
 }
-</style>
 
-<style>
 .box-titulo-rajaxplus {
   width: 100%;
   max-width: 850px;
@@ -234,9 +232,7 @@
 .img-some {
   display:none;
   }
-</style>
 
-<style>
 .caixa-titulo-rajaxplus {
   margin-left: 50px;
   margin-right: 50px;
@@ -344,9 +340,7 @@
   margin-bottom: 25px;
 }
 }
-</style>
 
-<style>
 /* COLUNA SINOPSE */
 .column-1 {
   float: left;
@@ -383,10 +377,8 @@
     padding-top: 0px;
   }
 }
-</style>
 
-<style>
-/* COLUNA NUMERAÇÃO*/
+/* COLUNA NUMERAÃ‡ÃƒO*/
 .column-video-0 {
   float: left;
   width: 6%;
@@ -436,9 +428,7 @@
   padding-top:10px;
 }
 }
-</style>
 
-<style>
 .tr-titulo-A {
   float: left;
   width: 32%;
@@ -504,10 +494,8 @@
   padding-top:10px;
 }
 }  
-</style>
 
-<style>
-/* OPÇÕES SEMELHANTES COMPUTADOR*/
+/* OPÃ‡Ã•ES SEMELHANTES COMPUTADOR*/
 
 .semelhante-titulo-A {
   float: left;
@@ -580,7 +568,7 @@
 }
 }
  
-/* OPÇÕES SEMELHANTES CELULAR*/
+/* OPÃ‡Ã•ES SEMELHANTES CELULAR*/
 @media screen and (max-width: 600px) {
 .semelhante-titulo-A-CEL {
   float: left;
@@ -635,9 +623,7 @@
   display: none;
 }    
 }  
-</style>
 
-<style>
 .detalhes-rajax-plus {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -651,10 +637,7 @@
   line-height: 0%;
 }
 }
-</style>
 
-
-<style>
 .icone-play-rajax-plus.visible {
   width: 100%;
 }
@@ -689,9 +672,7 @@
   opacity: 1;
 }
 }
-</style>
 
-<style>
 .icone-play-semelhante-rajax-plus.visible {
   width: 100%;
 }
@@ -726,9 +707,7 @@
   opacity: 1;
 }
 }
-</style>
 
-<style>
 .favoriteicon_curtir {
   font-size: 22px;
   color: #fff;
@@ -752,10 +731,6 @@
   color: #ff0095;
 }
 
-</style>
-
-
-<style>
 /* TABS PRINCIPAIS - EPISODIOS, TRAILER E SEMELHANTES */
 .tab {
   overflow: hidden;
@@ -811,9 +786,7 @@
   font-size: 13px;
 }
 }
-</style>
 
-<style>
 /* TABS DAS TEMPORADAS */
 .tab-temp {
   z-index: 200;
@@ -837,14 +810,12 @@
   -webkit-animation: fadeEffect 0.4s;
   animation: fadeEffect 0.4s;
 }
-</style>
 
-<style>
 .margemdrop {
   margin-top: 20px;
 }
     
-/* LINHA DE SEPARAÇÃO */
+/* LINHA DE SEPARAÃ‡ÃƒO */
 @media screen and (min-width: 601px) {
 hr.jax1 {
   border-top: 1px solid #444;
@@ -872,9 +843,7 @@ hr.jax1 {
    display: none;
 }
 }
-</style>
 
-<style>
 .overlay-tit {
   height: 0%;
   width: 100%;
@@ -938,9 +907,8 @@ hr.jax1 {
   margin-top: 0px;
 }
 }
-</style>
 
-<style>
+  
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
   display: inline-block
@@ -1020,10 +988,7 @@ hr.jax1 {
   margin-right: auto;
   text-align: center;
 }  
-</style>  
 
-
-<style>
 .dropbtn {
   background-color: #222;
   padding: 5px 12px;
@@ -1086,5 +1051,5 @@ hr.jax1 {
   margin-top: -52.9px;
   cursor:pointer;
 }  
-</style>
+
 
