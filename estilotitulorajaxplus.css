@@ -17,20 +17,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
 @-webkit-keyframes mudarfundo {
   from {background-image: transparent;}
   to {background-image: url("https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2019/01/marucs-1.jpg");}
 }
-
 @keyframes mudarfundo {
   from {background-image: transparent;}
   to {background-image: url("https://i0.wp.com/www.nerdsandbeyond.com/wp-content/uploads/2019/01/marucs-1.jpg");}
 }
-
-
 .bg-titulo-rajaxplus:after {
   position: absolute;
   display: block;
@@ -43,7 +38,6 @@
   opacity: 1;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #111);
 }
-
 .description-box-titulo-rajaxplus {
   z-index: 125;
   position: absolute;
@@ -52,11 +46,9 @@
   left: 50px;
   bottom: 50px; 
 }
-
 .description-box-titulo-rajaxplus h1{
  margin-bottom: -10px; 
 }
-
 .button1-titulo-rajaxplus {
   margin-top: 4px !important;
   font-family: 'Montserrat', sans-serif;
@@ -75,7 +67,6 @@
   -o-transition: 0.3s; /* para Opera antigo */
   -webkit-transition: 0.3s; /* para Chrome e similares antigos */
 }
-
 .button2-favoritar-titulo-rajaxplus {
   margin-left: 10px !important;
   margin-top: 2px !important;
@@ -92,7 +83,6 @@
   -o-transition: 0.3s; /* para Opera antigo */
   -webkit-transition: 0.3s; /* para Chrome e similares antigos */
 }
-
 .button3-compartilhar-titulo-rajaxplus {
   margin-left: 10px !important;
   margin-top: 2px !important;
@@ -115,7 +105,6 @@
   position: absolute;
   color: #f1f1f1;
 }
-  
 .button4-apres-titulo-rajaxplus {
   margin-left: 10px !important;
   margin-top: 2px !important;
@@ -138,16 +127,13 @@
   position: absolute;
   color: #f1f1f1;
 }  
-
 .button1-titulo-rajaxplus:hover {
   background-color: #bbb;
 }
-
 .button2-favoritar-titulo-rajaxplus:hover {
   background-color: #444;
   border: 2px solid #fff;
 }
-
 .button3-compartilhar-titulo-rajaxplus:hover {
   background-color: #444;
   border: 2px solid #fff;
@@ -156,7 +142,6 @@
   background-color: #444;
   border: 2px solid #fff;
 }
-
 .text-cindicativa-titulo-rajaxplus {
   position: absolute;
   width: 70px;
@@ -174,26 +159,23 @@
   background-color: #222;
   z-index: 90;
 }   
-  
 @media only screen and (max-width: 600px) {
 .bg-titulo-rajaxplus {
  height: 400px;
 }
-
 .bg-titulo-rajaxplus:after {
   height: 200px;
   bottom: -2px;
 }
-
 .description-box-titulo-rajaxplus {
   left: 10px;
   bottom: 25px; 
 }
-
 .text-cindicativa-titulo-rajaxplus {
   bottom: 25px;
   width: 50px;
  background: transparent;
+}
 }
 @media only screen and (max-width: 400px) {
 .bg-titulo-rajaxplus {
@@ -209,6 +191,7 @@
 }  
 }
 
+/* TODA A PÁGINA - CENTRALIZADA  */
 .box-titulo-rajaxplus {
   width: 100%;
   max-width: 850px;
@@ -219,7 +202,6 @@
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
 } 
-
 @keyframes fadeInAnimation { 
   0% { 
    opacity: 0;
@@ -229,16 +211,17 @@
  } 
 } 
 
+/* IMAGEM PARA COMPARTILHAMENTO  */
 .img-some {
   display:none;
-  }
+}
 
+/* TAMANHO DE LETRAS DO GRID  */
 .caixa-titulo-rajaxplus {
   margin-left: 50px;
   margin-right: 50px;
   z-index:150;
 }
-
 .caixa-titulo-rajaxplus h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -247,7 +230,6 @@
   line-height: 150%;
   margin-top: -4px;
 }
-
 .caixa-titulo-rajaxplus h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -255,7 +237,6 @@
   color: #ddd;
   line-height: 150%;
 }
-
 .caixa-titulo-rajaxplus h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -263,7 +244,6 @@
   color: #ddd;
   line-height: 150%;
 }
-
 .caixa-titulo-rajaxplus h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -271,7 +251,6 @@
   color: #ddd;
   line-height: 150%;
 }
-
 .caixa-titulo-rajaxplus h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -279,7 +258,6 @@
   color: #999;
   padding-top:26px;
 }
-
 .caixa-titulo-rajaxplus h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -299,7 +277,6 @@
 .caixa-titulo-descricao-rajaxplus {
   font-size: 0px;
 }
-
 @media only screen and (max-width: 600px) {
 .caixa-titulo-rajaxplus {
   margin-left: 10px;
@@ -429,6 +406,7 @@
 }
 }
 
+/* GRID PARA A SEÇÃO TRAILERS E MAIS  */
 .tr-titulo-A {
   float: left;
   width: 32%;
@@ -496,7 +474,6 @@
 }  
 
 /* OPÇÕES SEMELHANTES COMPUTADOR*/
-
 .semelhante-titulo-A {
   float: left;
   width: 32%;
@@ -638,10 +615,10 @@
 }
 }
 
+/* ICONE PLAY */
 .icone-play-rajax-plus.visible {
   width: 100%;
 }
-
 .icone-play-rajax-plus.visible:before {
  position: absolute;
   display: block;
@@ -673,10 +650,10 @@
 }
 }
 
+/* ICONE PLAY - SEMELHANTES  */
 .icone-play-semelhante-rajax-plus.visible {
   width: 100%;
 }
-
 .icone-play-semelhante-rajax-plus.visible:before {
  position: absolute;
   display: block;
@@ -697,7 +674,6 @@
   -moz-transition: 0.3s; /* para Mozilla antigo */
   -o-transition: 0.3s; /* para Opera antigo */
   -webkit-transition: 0.3s; /* para Chrome e similares antigos */
-
 }
 .icone-play-semelhante-rajax-plus.visible:hover:before {
   opacity: 1;
@@ -708,6 +684,7 @@
 }
 }
 
+/* CORAÇÃO - BOTÃO FAVORITAR */
 .favoriteicon_curtir {
   font-size: 22px;
   color: #fff;
@@ -844,6 +821,7 @@ hr.jax1 {
 }
 }
 
+/* SEÇÃO DE COMPARTILHAR  */
 .overlay-tit {
   height: 0%;
   width: 100%;
@@ -908,7 +886,7 @@ hr.jax1 {
 }
 }
 
-  
+/* ESTILOS DOS BOTÕES DE REDES SOCIAIS  */  
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
   display: inline-block
@@ -989,6 +967,7 @@ hr.jax1 {
   text-align: center;
 }  
 
+/* BOTÃO DE TEMPORADAS  */
 .dropbtn {
   background-color: #222;
   padding: 5px 12px;
